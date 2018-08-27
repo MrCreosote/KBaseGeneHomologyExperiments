@@ -20,12 +20,21 @@ be much less mature and it so far has been difficult to find easy to use, establ
 
 Standard Needleman/Wunch / Smith/Waterman family searches.
 
-If you take [MMSeqs2](https://www.nature.com/articles/nbt.3988)'s authors at face value,
-as of 2017 their package was the fastest and most sensitive, beating
+[MMSeqs2](https://www.nature.com/articles/nbt.3988) authors,
+as of November 2017, claim their package is the fastest and most sensitive, beating
 [LAST](https://genome.cshlp.org/content/early/2011/01/05/gr.113985.110.abstract),
 [RAPSearch2](https://academic.oup.com/bioinformatics/article/28/1/125/218953),
-and Diamond, among others.
+and [DIAMOND](https://www.nature.com/articles/nmeth.3176), among others. MMSeqs2
+requires NL * 7B of memory where N is number of sequences and L is not defined but I presume is
+the average sequence length, but supports MPI and can split databases into arbitrarily sized
+chunks.
 
-TODO check MMSeqs2 references:  
-[AC-Diamond](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty391/4996593?redirectedFrom=PDF)  
-[General review of sequence search](https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpps.71)  
+However, a group with no common authors with the DIAMOND paper released
+[AC-DIAMOND](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty391/4996593)
+in May 2018, which claims to be faster and approximately as sensitive as MMSeqs2. They don't
+appear to describe the settings used to run MMSeqs2. AC-DIAMOND used up to 57Gb of memory
+to align 12Gbases of amino acid sequence to NCBI-nr.
+
+
+
+
