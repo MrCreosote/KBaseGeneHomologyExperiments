@@ -50,8 +50,11 @@ to spend cycles on. My initial proposal is that
 
 1. There must be a ready to use software package for the method (e.g. ALFree, CAFE) or
    the method must be quick to understand and implement (unclear on how to judge this for now).
-3. There must be some indication that it's near the top of the field for accuracy and performance,
+2. There must be some indication that it's near the top of the field for accuracy and performance,
    whether in a review or via an analysis in the method paper.
+3. The method needs to be noted as specifically targeting short sequences, not just genomes or
+   phylogenomics.
+4. The method must be presented in a paper, not a thesis or dissertation.
 
 We don't have the time to evaluate the methods for accuracy and need to delegate that to the
 literature.
@@ -60,7 +63,7 @@ Several reviews compare various sets of algorithms.
 
 #### [Zielezinski et. al., 2017](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
 (notated as Z from now on)  
-Has an [accompanying website](http://combio.pl/alfree) that evaluates 34 different word (e.g. kmer)
+Has an [accompanying website](http://combio.pl/alfree) that evaluates 33 different word (e.g. kmer)
 and information theory based methods on a dataset derived from SCOP. They are compared only
 against Smith-Waterman, and no other alignment based algorithms. Google distance (TODO: cite)
 and Bray-Curtis (TODO: cite) distance were the top performers regarding accuracy.
@@ -118,8 +121,6 @@ and kmacs performed well, although cvt and kmacs did not perform well when teste
 conditions of genome rearrangement. co-phylog and d S2 were also much faster than cvt and
 kmacs. The methods were not compared to any alignment based algorithm.
 
-TODO: look at article incoming refs
-
 The methods were:
 * co-phylog
 * `d S2`
@@ -137,8 +138,6 @@ Evaluates 6 methods: `n2`, `d *2`, and `d S2` performed similarly and best, with
 performing well under specific circumstances. The methods were not compared to any alignment
 based algorithm.
 
-TODO: look at article incoming refs
-
 The methods were:
 * Hao
 * `n2`
@@ -151,6 +150,13 @@ The methods were:
 * SSAW (TODO: cite)
 * FASTCAR (TODO: cite)
 * LZW-Kernel (TODO: cite)
+* Similarity Projection (TODO: cite)
+* K2, K*2 (TODO: cite)
+* ACSk (TODO: cite)
+* kWIP (TODO: cite)
+* Weighted D2 (TODO: cite)
+* rasbhari (TODO: cite)
+
 
 #### Other reviews
 [Ren et. al., 2018](https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-080917-013431)
