@@ -46,9 +46,9 @@ Several reviews compare various sets of algorithms.
 [Zielezinski et. al.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
 (marked as Z from now on)
 has an [accompanying website](http://combio.pl/alfree) that evaluates 34 different word (e.g. kmer)
-and information theory based methods. They are compared only against Smith-Waterman, and no other
-alignement based algorithms. Google distance (TODO: cite) and Bray-Curtis (TODO: cite) distance
-were the top performers regarding accuracy.
+and information theory based methods on a dataset derived from SCOP. They are compared only
+against Smith-Waterman, and no other alignment based algorithms. Google distance (TODO: cite)
+and Bray-Curtis (TODO: cite) distance were the top performers regarding accuracy.
 
 The measures were, in order of accuracy:
 * d google
@@ -86,7 +86,22 @@ The measures were, in order of accuracy:
 * d CV
 * d LZ1
 
+[Bernard, et. al.](https://www.nature.com/articles/srep28970) evaluates 9 methods using simulated
+data. co-phylog (TODO: cite), d S2 (TODO: cite), cvt, and kmacs performed well, although cvt and
+kmacs did not perform well when tested under conditions of genome rearrangement. co-phylog and
+d S2 were also much faster than cvt and kmacs. The methods were not compared to any alignment
+based algorithm.
 
+The methods were:
+* co-phylog
+* cvt
+* d S2
+* ffp
+* spaced
+* acs
+* gram
+* kmacs
+* kr
 
 
 
