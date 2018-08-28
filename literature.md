@@ -41,11 +41,26 @@ There are a zillion different sequence distance algorithms and it's not clear wh
 have mainstream traction. Many of the algorithms appear to be of demonstration-only quality,
 without an accompanying software package for actual every day use.
 
+As I continue to read reviews and papers, it's become abundantly clear there are far too many
+methods and packages available to evaluate them all, or even a substantial subset, and there
+doesn't appear to be clear agreement in the field regarding which methods are the front runners. A
+comprehensive evaluation of the best ALF methods vs. the best AL methods would be very helpful
+but doesn't seem to exist. There will need to be a winnowing process to determine which packages
+to spend cycles on. My initial proposal is that
+
+1. There must be a ready to use software package for the method (e.g. ALFree, CAFE) or
+   the method must be quick to understand and implement (unclear on how to judge this for now).
+3. There must be some indication that it's near the top of the field for accuracy and performance,
+   whether in a review or via an analysis in the method paper.
+
+We don't have the time to evaluate the methods for accuracy and need to delegate that to the
+literature.
+
 Several reviews compare various sets of algorithms.
 
-[Zielezinski et. al., 2017](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
-(notated as Z from now on)
-has an [accompanying website](http://combio.pl/alfree) that evaluates 34 different word (e.g. kmer)
+#### [Zielezinski et. al., 2017](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
+(notated as Z from now on)  
+Has an [accompanying website](http://combio.pl/alfree) that evaluates 34 different word (e.g. kmer)
 and information theory based methods on a dataset derived from SCOP. They are compared only
 against Smith-Waterman, and no other alignment based algorithms. Google distance (TODO: cite)
 and Bray-Curtis (TODO: cite) distance were the top performers regarding accuracy.
@@ -96,8 +111,9 @@ Methods noted in the review but not evaluated:
 * SeqAn (TODO: cite)
 * decaf+py (TODO: cite)
 
-[Bernard, et. al., 2016](https://www.nature.com/articles/srep28970) (notated as B from now on)
-evaluates 9 methods using simulated data. co-phylog (TODO: cite), `d S2` (TODO: cite), cvt,
+#### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
+(notated as B from now on)  
+Evaluates 9 methods using simulated data. co-phylog (TODO: cite), `d S2` (TODO: cite), cvt,
 and kmacs performed well, although cvt and kmacs did not perform well when tested under
 conditions of genome rearrangement. co-phylog and d S2 were also much faster than cvt and
 kmacs. The methods were not compared to any alignment based algorithm.
@@ -115,9 +131,11 @@ The methods were:
 * kmacs
 * kr
 
-[Song et. al., 2013](https://academic.oup.com/bib/article/15/3/343/182355) evaluates 6 methods:
-`n2`, `d *2`, and `d S2` performed similarly and best, with `S2` performing well under specific
-circumstances. The methods were not compared to any alignment based algorithm.
+#### [Song et. al., 2013](https://academic.oup.com/bib/article/15/3/343/182355)
+(notated as S from now on)
+Evaluates 6 methods: `n2`, `d *2`, and `d S2` performed similarly and best, with `S2`
+performing well under specific circumstances. The methods were not compared to any alignment
+based algorithm.
 
 TODO: look at article incoming refs
 
@@ -129,7 +147,12 @@ The methods were:
 * Jensen-Shannon
 * `S2`
 
-Other methods:
+#### Other methods
 * SSAW (TODO: cite)
 * FASTCAR (TODO: cite)
 * LZW-Kernel (TODO: cite)
+
+#### Other reviews
+[Ren et. al., 2018](https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-080917-013431)
+is from the same group as S. It doesn't provide a clear indicator of superior alignment-free
+methods.
