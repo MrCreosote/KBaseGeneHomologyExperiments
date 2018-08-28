@@ -93,6 +93,11 @@ is the google distance metric - but in papers below `d` also refers to the `D 2`
 including `D 2`, `D S2`, `D *2`, `d S2`, and `d *2`. This makes it somewhat confusing to
 interpret the method lists.
 
+Methods noted in the review but not evaluated:
+* MissMax (TODO: cite)
+* SeqAn (TODO: cite)
+* decaf+py (TODO: cite)
+
 [Bernard, et. al.](https://www.nature.com/articles/srep28970) (notated as B from now on)
 evaluates 9 methods using simulated data. co-phylog (TODO: cite), `d S2` (TODO: cite), cvt,
 and kmacs performed well, although cvt and kmacs did not perform well when tested under
@@ -125,3 +130,8 @@ The methods were:
 * `d S2` (also evaluated in B)
 * Jensen-Shannon
 * `S2`
+
+Other methods:
+* SSAW (TODO: cite)
+* FASTCAR (TODO: cite)
+* LZW-Kernel (TODO: cite)
