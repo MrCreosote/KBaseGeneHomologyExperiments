@@ -65,8 +65,10 @@ Several reviews compare various sets of algorithms.
 (notated as Z from now on)  
 Has an [accompanying website](http://combio.pl/alfree) that evaluates 33 different word (e.g. kmer)
 and information theory based methods on a dataset derived from SCOP. They are compared only
-against Smith-Waterman, and no other alignment based algorithms. Google distance (TODO: cite)
-and Bray-Curtis (TODO: cite) distance were the top performers regarding accuracy.
+against Smith-Waterman, and no other alignment based algorithms.
+[Google distance](https://ieeexplore.ieee.org/abstract/document/4631601/)
+and [Bray-Curtis distance](https://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity)
+were the top performers regarding accuracy.
 
 The measures were, in order of accuracy:
 * d google
@@ -110,14 +112,17 @@ including `D 2`, `D S2`, `D *2`, `d S2`, and `d *2`. This makes it somewhat conf
 interpret the method lists.
 
 Methods noted in the review but not evaluated:
-* MissMax (TODO: cite)
-* SeqAn (TODO: cite)
-* decaf+py (TODO: cite)
+* [MissMax](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)
+* [SeqAn](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
+* [decaf+py](https://academic.oup.com/sysbio/article/56/2/206/1686184)
 
 #### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
 (notated as B from now on)  
-Evaluates 9 methods using simulated data. co-phylog (TODO: cite), `d S2` (TODO: cite), cvt,
-and kmacs performed well, although cvt and kmacs did not perform well when tested under
+Evaluates 9 methods using simulated data.
+[co-phylog](https://academic.oup.com/nar/article/41/7/e75/1067663),
+`d S2` [a](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0198)
+[b](https://www.liebertpub.com/doi/abs/10.1089/cmb.2010.0056),
+cvt, and kmacs performed well, although cvt and kmacs did not perform well when tested under
 conditions of genome rearrangement. co-phylog and d S2 were also much faster than cvt and
 kmacs. The methods were not compared to any alignment based algorithm.
 
@@ -152,15 +157,15 @@ the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes
 general, none of the methods perform well on short sequences.
 
 #### Other methods
-* SSAW (TODO: cite)
-* FASTCAR (TODO: cite)
-* LZW-Kernel (TODO: cite)
-* Similarity Projection (TODO: cite)
-* K2, K*2 (TODO: cite)
-* ACSk (TODO: cite)
-* kWIP (TODO: cite)
-* Weighted D2 (TODO: cite)
-* rasbhari (TODO: cite)
+* [SSAW](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)
+* [FASTCAR](https://www.biorxiv.org/content/early/2018/07/31/380824)
+* [LZW-Kernel](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)
+* [Similarity Projection](https://ieeexplore.ieee.org/abstract/document/8109151/)
+* [K2, K*2](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)
+* [ACSk](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
+* [kWIP](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
+* [Weighted D2](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
+* [rasbhari](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
 
 
 #### Other reviews
