@@ -56,9 +56,6 @@ to spend cycles on. My initial proposal is that
    phylogenomics.
 4. The method must be presented in a paper, not a thesis or dissertation.
 
-We don't have the time to evaluate the methods for accuracy and need to delegate that to the
-literature.
-
 Several reviews compare various sets of algorithms.
 
 #### [Zielezinski et. al., 2017](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1319-7)
@@ -169,6 +166,14 @@ general, none of the methods perform well on short sequences.
 
 
 #### Other reviews
-[Ren et. al., 2018](https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-080917-013431)
-is from the same group as S. It doesn't provide a clear indicator of superior alignment-free
-methods.
+* [Ren et. al., 2018](https://www.annualreviews.org/doi/abs/10.1146/annurev-biodatasci-080917-013431)
+  is from the same group as S. It doesn't provide a clear indicator of superior alignment-free
+  methods.
+
+#### Other articles
+* [Catteaneo et. al., 2015](https://ieeexplore.ieee.org/abstract/document/7349910/)
+  implements several dis/similarity methods (Euclidean, squared Euclidean, `D 2`, `D S2`, `D *2`,
+  FFP, spaced, and their own implementation of co-phylog, and compares run time with and without
+  Hadoop based MapReduce parallelization on large (>50Mbases) sequences. The runtimes are fairly
+  similar other than co-phylog which is ~2x slower on larger sequence counts. No accuracy
+  measurements are made.
