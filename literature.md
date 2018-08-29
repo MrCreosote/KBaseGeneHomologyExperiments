@@ -146,6 +146,11 @@ The methods were:
 * Jensen-Shannon
 * `S2`
 
+#### [Comin et. al., 2017](https://link.springer.com/chapter/10.1007%2F978-3-319-59826-0_14)
+Is a review and presentation of their `Under2` statistic, which is favorably compared against
+the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
+general, none of the methods perform well on short sequences.
+
 #### Other methods
 * SSAW (TODO: cite)
 * FASTCAR (TODO: cite)
