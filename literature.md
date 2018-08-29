@@ -173,7 +173,7 @@ general, none of the methods perform well on short sequences.
 #### Other articles
 * [Catteaneo et. al., 2015](https://ieeexplore.ieee.org/abstract/document/7349910/)
   implements several dis/similarity methods (Euclidean, squared Euclidean, `D 2`, `D S2`, `D *2`,
-  FFP, spaced, and their own implementation of co-phylog, and compares run time with and without
+  FFP, spaced, and their own implementation of co-phylog), and compares run time with and without
   Hadoop based MapReduce parallelization on large (>50Mbases) sequences. The runtimes are fairly
   similar other than co-phylog which is ~2x slower on larger sequence counts. No accuracy
   measurements are made.
