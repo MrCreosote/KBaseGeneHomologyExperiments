@@ -113,7 +113,7 @@ interpret the method lists.
 
 Methods noted in the review but not evaluated:
 * [MissMax](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)
-* [SeqAn](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
+* [wre.kr., S2.kr.](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
 * [decaf+py](https://academic.oup.com/sysbio/article/56/2/206/1686184)
 
 #### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
