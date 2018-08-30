@@ -54,6 +54,9 @@ to spend cycles on, if any. My initial proposal is that
    whether in a review or via an analysis in the method paper.
 3. The method needs to be noted as specifically targeting short sequences.
 4. The method must be presented in a paper, not a thesis or dissertation.
+5. The method must be present in a review or paper less than 10 years old.
+
+I'm also not reading reviews more than 10 years old given the rapidity of change in the field.
 
 Several reviews compare various sets of algorithms.
 
@@ -107,7 +110,7 @@ is the google distance metric - but in papers below `d` also refers to the `D 2`
 including `D 2`, `D S2`, `D *2`, `d S2`, and `d *2`. This makes it somewhat confusing to
 interpret the method lists.
 
-Methods noted in the review but not evaluated:
+Other methods noted in the review but not evaluated:
 * [MissMax (2016)](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)
 * [wre.kr., S2.kr. (2008)](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
 * [decaf+py (2007)](https://academic.oup.com/sysbio/article/56/2/206/1686184)
