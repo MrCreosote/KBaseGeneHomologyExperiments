@@ -153,6 +153,32 @@ Is a review and presentation of their `Under2` statistic, which is favorably com
 the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
 general, none of the methods perform well on short sequences.
 
+#### [Luczak et. al., 2017](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbx161/4696316)
+This review is pretty difficult to interpret in the context of determining the best AF method(s).
+They evaluate the performance and runtime of 33 different difference statistics, the square of
+the statistics, and multiplicative combinations of the statistics against some fairly small
+data sets (most with short sequences).
+
+```
+The following is a list of the 33 statistics evaluated in this article: Hellinger,
+Manhattan, Euclidean, v2, normalized vectors, harmonic mean, Jeffrey divergence,
+K-Divergence, Pearson correlation coefficient, squared chord, Kullback–Liebler
+conditional divergence, Markov similarity, intersection, rre_k_r, D2z, SimMM,
+EuclideanZ, EMD, Spearman, Jaccard, LD, DS2 , AFd, mismatch, Canberra,
+Kulczynski Similarity 1, Kulczynski Similarity 2, similarity ratio,
+Jensen–Shannon Divergence, D*2, N2r, N2rc and N2rrc.
+```
+
+They compare %ID against Needleman-Wunch and find very different results at different %ID
+thresholds, but in all cases the best performers (r2 = 0.97-0.98) were multiplicative combinations
+of statistics where one of the statistics took the overall length of the sequence into account. For
+most cases, the top performers possessed a simple length difference as one of the two
+multiplicatively combined statistics and the other varied widely, implying that much of the
+comparative power of the combined statistic was based on the lengths of the sequences.
+
+They also look for nearest neighbors via local alignment but the performance didn't seem stellar
+based on the brief discussion.
+
 #### Other methods
 * [SSAW (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)
 * [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)
