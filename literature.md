@@ -199,6 +199,9 @@ based on the brief discussion.
   is from the same group as S. It doesn't provide a clear indicator of superior alignment-free
   methods.
 
+* [Bonham-Carter et. al., 2013](https://academic.oup.com/bib/article/15/6/890/177681) reviews,
+  but does not otherwise evaluate, a number of ALF methods.
+
 #### Other articles
 * [Catteaneo et. al., 2015](https://ieeexplore.ieee.org/abstract/document/7349910/)
   implements several dis/similarity methods (Euclidean, squared Euclidean, `D 2`, `D S2`, `D *2`,
