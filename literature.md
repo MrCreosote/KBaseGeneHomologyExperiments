@@ -192,6 +192,8 @@ based on the brief discussion.
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
 * [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
+* [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)
+  Compares 3 related EP methods against an older EP method.
 
 
 #### Other reviews
