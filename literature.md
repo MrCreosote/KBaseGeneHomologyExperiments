@@ -112,8 +112,10 @@ interpret the method lists.
 
 Other methods noted in the review but not evaluated:
 * [MissMax (2016)](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)
-* [wre.kr., S2.kr. (2008)](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
-* [decaf+py (2007)](https://academic.oup.com/sysbio/article/56/2/206/1686184)
+* [wre.kr., S2.kr. (2008)](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)  
+  Did not read due to the senescent status of this algorithm.
+* [decaf+py (2007)](https://academic.oup.com/sysbio/article/56/2/206/1686184)  
+  Did not read due to the senescent status of this algorithm.
 
 #### [Lu et. al., 2017](https://academic.oup.com/nar/article/45/W1/W554/3791208)
 Presents CAFE, a software suite for performing kmer-count based alignment free distance
@@ -213,7 +215,7 @@ based on the brief discussion.
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
 * [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
-* [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)
+* [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)  
   Compares 3 related EP methods against an older EP method.
 * [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)
 
