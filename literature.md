@@ -132,7 +132,8 @@ Yule.
 ```
 
 `d *2`, `d S2`, CVTree, Canberra, and co-phylog performed the best in the genome tests for
-accuracy. Efficiency results are not reported. Peak memory for `d *2` is repored as 25-50G.
+accuracy. Efficiency results are not reported. Peak memory for `d *2` is repored as 25-50G. No
+comparisons against alignment-based methods were reported.
 
 
 #### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
