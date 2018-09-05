@@ -115,6 +115,26 @@ Other methods noted in the review but not evaluated:
 * [wre.kr., S2.kr. (2008)](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)
 * [decaf+py (2007)](https://academic.oup.com/sysbio/article/56/2/206/1686184)
 
+#### [Lu et. al., 2017](https://academic.oup.com/nar/article/45/W1/W554/3791208)
+Presents CAFE, a software suite for performing kmer-count based alignment free distance
+measurements. Tests against vertebrate genomes and gut metagenomes.
+
+```
+The comparison involves three dissimilarity measures
+based on background adjusted k-mer counts including
+CVTree, d *2 and d S2, 10 conventional measures based on
+k-mer counts, including Canberra, Ch, Cosine, Co-phylog,
+d2, Eu, FFP, JS, Ma and Pearson, and 15 measures based
+on presence/absence of k-mers including Anderberg, Antidice,
+Dice, Gower, Hamman, Hamming, Jaccard, Kulczynski,
+Matching, Ochiai, Phi, Russel, Sneath, Tanimoto and
+Yule.
+```
+
+`d *2`, `d S2`, CVTree, Canberra, and co-phylog performed the best in the genome tests for
+accuracy. Efficiency results are not reported. Peak memory for `d *2` is repored as 25-50G.
+
+
 #### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
 (notated as B from now on)  
 Evaluates 9 methods using simulated data.
