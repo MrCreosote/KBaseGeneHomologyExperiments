@@ -194,6 +194,7 @@ based on the brief discussion.
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
 * [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)
   Compares 3 related EP methods against an older EP method.
+* [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)
 
 
 #### Other reviews
