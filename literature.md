@@ -209,7 +209,9 @@ based on the brief discussion.
 * [SSAW (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)
 * [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)
 * [LZW-Kernel (2018)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)
-* [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)
+* [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
+  Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset2: slightly faster than
+  BLAST, somewhat worse performance.
 * [K2, K*2 (2017)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
@@ -217,7 +219,11 @@ based on the brief discussion.
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
 * [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)  
   Compares 3 related EP methods against an older EP method.
-* [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)
+* [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)  
+  Average common substring with hamming distance < k approach. O(n logk n) complexity. Doesn't
+  compare itself to any other methods. 
+  * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14)
+* [Cis sequence complex DNA networks (2016)](http://journals.sagepub.com/doi/abs/10.4137/EBO.S40474)
 
 
 #### Other reviews
