@@ -210,7 +210,7 @@ based on the brief discussion.
 * [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)
 * [LZW-Kernel (2018)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)
 * [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
-  Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset2: slightly faster than
+  Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset 2: slightly faster than
   BLAST, somewhat worse performance.
 * [K2, K*2 (2017)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
@@ -222,8 +222,12 @@ based on the brief discussion.
 * [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)  
   Average common substring with hamming distance < k approach. O(n logk n) complexity. Doesn't
   compare itself to any other methods. 
-  * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14)
-* [Cis sequence complex DNA networks (2016)](http://journals.sagepub.com/doi/abs/10.4137/EBO.S40474)
+  * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14)  
+    Purely theoretical.
+* [Cis sequence complex DNA networks (2016)](http://journals.sagepub.com/doi/abs/10.4137/EBO.S40474)  
+  Creates graphs where small (2-5) kmers are nodes and adjacency determines edges. Determines
+  sequence difference via feature extraction from the graphs. Not compared against any other
+  methods.
 
 
 #### Other reviews
