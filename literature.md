@@ -212,7 +212,9 @@ based on the brief discussion.
 * [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
   Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset 2: slightly faster than
   BLAST, somewhat worse performance.
-* [K2, K*2 (2017)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)
+* [K2, K*2 (2017)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)  
+  Compares itself favorably against `D2`, `D *2`, `D s2 (D sh2)`, `D z2`, `D Mk`, `CFP`,
+  `DV`, `Shi`and `WVF` for both accuracy and speed.
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
 * [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
@@ -228,6 +230,9 @@ based on the brief discussion.
   Creates graphs where small (2-5) kmers are nodes and adjacency determines edges. Determines
   sequence difference via feature extraction from the graphs. Not compared against any other
   methods.
+* [kmacs with length distribution (2017)](https://arxiv.org/abs/1709.01371)  
+  kmacs method with alterations. Compares itself with `andi` and `fswm` with generally similar
+  results. Efficiency is not compared.
 
 
 #### Other reviews
