@@ -222,8 +222,8 @@ based on the brief discussion.
 * [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)  
   Average common substring with hamming distance < k approach. O(n logk n) complexity. Doesn't
   compare itself to any other methods. 
-  * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14)
-    - Purely theoretical.
+  * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14) -
+    Purely theoretical.
 * [Cis sequence complex DNA networks (2016)](http://journals.sagepub.com/doi/abs/10.4137/EBO.S40474)  
   Creates graphs where small (2-5) kmers are nodes and adjacency determines edges. Determines
   sequence difference via feature extraction from the graphs. Not compared against any other
