@@ -173,11 +173,6 @@ The methods were:
 * Jensen-Shannon
 * `S2`
 
-#### [Comin et. al., 2017](https://link.springer.com/chapter/10.1007%2F978-3-319-59826-0_14)
-Is a review and presentation of their `Under2` statistic, which is favorably compared against
-the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
-general, none of the methods perform well on short sequences.
-
 #### [Luczak et. al., 2017](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbx161/4696316)
 This review is pretty difficult to interpret in the context of determining the best AF method(s).
 They evaluate the performance and runtime of 33 different difference statistics, the square of
@@ -233,6 +228,10 @@ based on the brief discussion.
 * [kmacs with length distribution (2017)](https://arxiv.org/abs/1709.01371)  
   kmacs method with alterations. Compares itself with `andi` and `fswm` with generally similar
   results. Efficiency is not compared.
+* [Under2 (2017)](https://link.springer.com/chapter/10.1007%2F978-3-319-59826-0_14)  
+  A review and presentation of the `Under2` statistic, which is favorably compared against
+  the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
+  general, none of the methods perform well on short sequences.
 
 
 #### Other reviews
