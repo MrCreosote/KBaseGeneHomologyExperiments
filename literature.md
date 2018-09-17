@@ -243,7 +243,7 @@ based on the brief discussion.
   but does not otherwise evaluate, a number of ALF methods.
 
 * [Jin et. al., 2017](https://www.sciencedirect.com/science/article/pii/S1093326317304023)
-  revies, but does not otherwise evaluate, a number of ALF methods.
+  reviews, but does not otherwise evaluate, a number of ALF methods.
 
 #### Other articles
 * [Catteaneo et. al., 2015](https://ieeexplore.ieee.org/abstract/document/7349910/)
