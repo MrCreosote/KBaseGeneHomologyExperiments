@@ -207,7 +207,7 @@ based on the brief discussion.
 * [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
   Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset 2: slightly faster than
   BLAST, somewhat worse performance.
-* [K2, K*2 (2017)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)  
+* [K2, K*2 (2018)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)  
   Compares itself favorably against `D2`, `D *2`, `D s2 (D sh2)`, `D z2`, `D Mk`, `CFP`,
   `DV`, `Shi`and `WVF` for both accuracy and speed.
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
@@ -241,6 +241,9 @@ based on the brief discussion.
 
 * [Bonham-Carter et. al., 2013](https://academic.oup.com/bib/article/15/6/890/177681) reviews,
   but does not otherwise evaluate, a number of ALF methods.
+
+* [Jin et. al., 2017](https://www.sciencedirect.com/science/article/pii/S1093326317304023)
+  revies, but does not otherwise evaluate, a number of ALF methods.
 
 #### Other articles
 * [Catteaneo et. al., 2015](https://ieeexplore.ieee.org/abstract/document/7349910/)
