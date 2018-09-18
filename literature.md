@@ -207,6 +207,8 @@ This section contains papers for methods reviewed above, and is not remotely com
 * [co-phylog (2013)](https://academic.oup.com/nar/article/41/7/e75/1067663)  
   Assembly and alignment free tree building. Compares itself favorably to CVTree and Kr against
   a benchmark tree. Does not compare speed.
+* [D S2, D*2 (2009)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0198)  
+  Theoretical.
 
 #### Other methods
 * [SSAW (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)
@@ -240,7 +242,7 @@ This section contains papers for methods reviewed above, and is not remotely com
   A review and presentation of the `Under2` statistic, which is favorably compared against
   the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
   general, none of the methods perform well on short sequences.
-* [sequence segment word frequency (2018)](https://ieeexplore.ieee.org/abstract/document/8333425/)
+* [sequence segment word frequency (2018)](https://ieeexplore.ieee.org/abstract/document/8333425/)  
   Claims distances are close to BLAST results depending on parameters.
 
 
