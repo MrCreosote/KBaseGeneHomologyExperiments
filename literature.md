@@ -240,6 +240,8 @@ This section contains papers for methods reviewed above, and is not remotely com
   A review and presentation of the `Under2` statistic, which is favorably compared against
   the `d 2`, `d S2`, and `d *2` statistics, but no code is provided. It also notes that in
   general, none of the methods perform well on short sequences.
+* [sequence segment word frequency (2018)](https://ieeexplore.ieee.org/abstract/document/8333425/)
+  Claims distances are close to BLAST results depending on parameters.
 
 
 #### Other reviews
