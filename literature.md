@@ -200,6 +200,14 @@ statistic was based on the lengths of the sequences.
 They also look for nearest neighbors via local alignment but the performance didn't seem stellar
 based on the brief discussion.
 
+#### Methods from reviews
+
+This section contains papers for methods reviewed above, and is not remotely comprehensive.
+
+* [co-phylog (2013)](https://academic.oup.com/nar/article/41/7/e75/1067663)  
+  Assembly and alignment free tree building. Compares itself favorably to CVTree and Kr against
+  a benchmark tree. Does not compare speed.
+
 #### Other methods
 * [SSAW (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)
 * [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)
