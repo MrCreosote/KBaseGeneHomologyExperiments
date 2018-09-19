@@ -219,7 +219,8 @@ This section contains papers for methods reviewed above, and is not remotely com
   Compares itself favorably against `D2`, `D *2`, `D s2 (D sh2)`, `D z2`, `D Mk`, `CFP`,
   `DV`, `Shi`and `WVF` for both accuracy and speed.
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
-* [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)
+* [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)  
+  For NGS reads. Compares itself favorably to `mash` and `D 2`, but is 10x slower than `mash`.
 * [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)
 * [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)  
