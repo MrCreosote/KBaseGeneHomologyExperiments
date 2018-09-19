@@ -111,7 +111,8 @@ including `D 2`, `D S2`, `D *2`, `d S2`, and `d *2`. This makes it somewhat conf
 interpret the method lists.
 
 Other methods noted in the review but not evaluated:
-* [MissMax (2016)](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)
+* [MissMax (2016)](https://almob.biomedcentral.com/articles/10.1186/s13015-016-0072-x)  
+  Average common substring variant.
 * [wre.kr., S2.kr. (2008)](https://academic.oup.com/bioinformatics/article-abstract/24/20/2296/259406)  
   Did not read due to the senescent status of this algorithm.
 * [decaf+py (2007)](https://academic.oup.com/sysbio/article/56/2/206/1686184)  
