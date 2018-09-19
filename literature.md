@@ -141,12 +141,9 @@ comparisons against alignment-based methods were reported.
 #### [Bernard, et. al., 2016](https://www.nature.com/articles/srep28970)
 (notated as B from now on)  
 Evaluates 9 methods using simulated data.
-[co-phylog (2013)](https://academic.oup.com/nar/article/41/7/e75/1067663),
-`d S2` [a (2009)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0198)
-[b (2010)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2010.0056),
-cvt, and kmacs performed well, although cvt and kmacs did not perform well when tested under
-conditions of genome rearrangement. co-phylog and d S2 were also much faster than cvt and
-kmacs. The methods were not compared to any alignment based algorithm.
+co-phylog, `d S2`, cvt, and kmacs performed well, although cvt and kmacs did not perform well
+when tested under conditions of genome rearrangement. co-phylog and d S2 were also much faster
+than cvt and kmacs. The methods were not compared to any alignment based algorithm.
 
 The methods were:
 * co-phylog
@@ -207,7 +204,7 @@ This section contains papers for methods reviewed above, and is not remotely com
 * [co-phylog (2013)](https://academic.oup.com/nar/article/41/7/e75/1067663)  
   Assembly and alignment free tree building. Compares itself favorably to CVTree and Kr against
   a benchmark tree. Does not compare speed.
-* [D S2, D*2 (2009)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0198)  
+* D S2, D*2 [(2009)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2009.0198), [(2010)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2010.0056)  
   Theoretical.
 
 #### Other methods
