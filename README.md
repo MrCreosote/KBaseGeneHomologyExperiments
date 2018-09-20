@@ -33,4 +33,7 @@ $ wc -l uniref50
 $ date; ~/bin/last/last-942/src/lastdb -p -C 2 uniref50_40Mlines.last uniref50_40Mlines; date
 Thu Sep 20 12:22:14 PDT 2018
 Thu Sep 20 12:45:28 PDT 2018
+
+$ grep numofsequences uniref50_40Mlines.last.prj
+numofsequences=6641431
 ```
