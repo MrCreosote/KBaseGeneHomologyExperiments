@@ -8,7 +8,7 @@ CPUs.
 
 ## Testing with LAST
 
-Downloaded UniRef50 (32,365,088 seqs) on 2018-09-19 12:19:16:
+Downloaded UniRef50 (32,365,088 seqs) on 2018-09-19 12:19:16:  
 `nohup wget -O uniref50.gz "http://uniprot.org/uniref/?query=identity:0.5&format=fasta&compress=yes"`
 
 Finished at 2018-09-19 22:24:48. 6.8GB gzipped, 13G unzipped.
