@@ -212,7 +212,10 @@ This section contains papers for methods reviewed above, and is not remotely com
 * [SSAW (2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2155-9)  
   Sequence Similarity Analysis using the Stationary Discrete Wavelet Transform  
   Compares itself favorably to K*2 and WFV, which the paper claims are the state of the art.
-* [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)
+* [FASTCAR (2018)](https://www.biorxiv.org/content/early/2018/07/31/380824)  
+  Fast and Accurate Search Tool for Classification and Regression  
+  Machine learning based method claiming production of sequence identity scores with linear
+  time and space requirements. Compares itself favorable with BLAST and USEARCH.
 * [LZW-Kernel (2018)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)
 * [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
   Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset 2: slightly faster than
