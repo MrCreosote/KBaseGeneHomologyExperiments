@@ -20,16 +20,20 @@ be much less mature and it so far has been difficult to find easy to use, establ
 
 Standard Needleman/Wunch / Smith/Waterman family searches.
 
-[MMSeqs2](https://www.nature.com/articles/nbt.3988) authors,
-as of November 2017, claim their package is the fastest and most sensitive, beating
-[LAST](https://genome.cshlp.org/content/early/2011/01/05/gr.113985.110.abstract),
-[RAPSearch2](https://academic.oup.com/bioinformatics/article/28/1/125/218953),
-and [DIAMOND](https://www.nature.com/articles/nmeth.3176), among others. MMSeqs2
-requires NL * 7B of memory where N is number of sequences and L is not defined but I presume is
-the average sequence length, but supports MPI and can split databases into arbitrarily sized
-chunks.
+[SANSparallel](https://academic.oup.com/nar/article/43/W1/W24/2467867) authors claim, as of
+April 2015, their program is comparable to SSEARCH, BLAST, UBLAST,
+[DIAMOND](https://www.nature.com/articles/nmeth.3176),
+[LAST](https://genome.cshlp.org/content/early/2011/01/05/gr.113985.110.abstract), BLAT, and
+[RAPSearch2](https://academic.oup.com/bioinformatics/article/28/1/125/218953)
+at > 50% ID, and much faster than all of them. Requires 9B per amino acid.
 
-However, a group with no common authors with the DIAMOND paper released
+[MMSeqs2](https://www.nature.com/articles/nbt.3988) authors,
+as of November 2017, claim their package is the fastest and most sensitive, beating LAST,
+RAPSearch2, and DIAMOND, among others. MMSeqs2 requires NL * 7B of memory where N is number of
+sequences and L is not defined but I presume is the average sequence length, but supports MPI and
+can split databases into arbitrarily sized chunks.
+
+A group with no common authors with the DIAMOND paper released
 [AC-DIAMOND](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty391/4996593)
 in May 2018, which claims to be faster and approximately as sensitive as MMSeqs2. They don't
 appear to describe the settings used to run MMSeqs2. AC-DIAMOND used up to 57Gb of memory
