@@ -216,7 +216,13 @@ This section contains papers for methods reviewed above, and is not remotely com
   Fast and Accurate Search Tool for Classification and Regression  
   Machine learning based method claiming production of sequence identity scores with linear
   time and space requirements. Compares itself favorable with BLAST and USEARCH.
-* [LZW-Kernel (2018)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)
+* [LZW-Kernel (2018)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty349/4993879)  
+  Based on LZW compression, obviously. Claims to be faster than LZW-NCD (normalized
+  compression distance), normalized Google distance (NGD), local alignment kernel (LAK), mismatch
+  kernel (MMK) and BLAST (by about 3x for the latter).
+  For classification performance, was towards the top of the pack when compared against FPS, MMK,
+  SAM, PSI-BLAST, LAK, and  support vector machine (SVM) methods: Fisher, Smith Waterman, NGD,
+  LZW-Kernel, LZW-NGD, and BLAST.
 * [Similarity Projection, (2017)](https://ieeexplore.ieee.org/abstract/document/8109151/)  
   Dataset 1: 2x faster than BLAST, somewhat better performance. Dataset 2: slightly faster than
   BLAST, somewhat worse performance.
