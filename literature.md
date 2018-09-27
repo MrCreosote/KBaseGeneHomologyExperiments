@@ -229,7 +229,6 @@ This section contains papers for methods reviewed above, and is not remotely com
 * [K2, K*2 (2018)](https://academic.oup.com/bioinformatics/article/34/10/1682/4747886)  
   Compares itself favorably against `D2`, `D *2`, `D s2 (D sh2)`, `D z2`, `D Mk`, `CFP`,
   `DV`, `Shi`and `WVF` for both accuracy and speed.
-* [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)  
   For NGS reads. Compares itself favorably to `mash` and `D 2`, but is 10x slower than `mash`.
 * [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)  
@@ -242,7 +241,9 @@ This section contains papers for methods reviewed above, and is not remotely com
   Compares 3 related EP methods against an older EP method.
 * [ALFRED (2016)](https://www.liebertpub.com/doi/abs/10.1089/cmb.2015.0217)  
   Average common substring with hamming distance < k approach. O(n logk n) complexity. Doesn't
-  compare itself to any other methods. 
+  compare itself to any other methods.
+  * [Prior paper](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1) -
+    Purely theoretical.
   * [Follow up paper](https://link.springer.com/chapter/10.1007/978-3-319-89929-9_14) -
     Purely theoretical.
 * [Cis sequence complex DNA networks (2016)](http://journals.sagepub.com/doi/abs/10.4137/EBO.S40474)  
