@@ -232,7 +232,10 @@ This section contains papers for methods reviewed above, and is not remotely com
 * [ACSk (2015)](https://link.springer.com/chapter/10.1007/978-3-319-16706-0_1)
 * [kWIP (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005727)  
   For NGS reads. Compares itself favorably to `mash` and `D 2`, but is 10x slower than `mash`.
-* [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)
+* [Weighted D2 (2017)](https://www.sciencedirect.com/science/article/pii/S0378437117303540)  
+  Versions of D2, DS2, D*2 with kmer weights. Compares itself mostly favorably against the
+  unweighted versions and Eu, Hao, Pcc, Cos, Kld, and Ch, which are not defined directly in the
+  paper. Computational efficiency is not explored.
 * [rasbhari (2016)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005107)  
   Deals with generating spaced seeds rather than ALF methods specifically.
 * [Entropic Profiles with Enhanced Suffix Arrays and Truncated Suffix Trees (2016)](https://ieeexplore.ieee.org/abstract/document/7605504/)  
